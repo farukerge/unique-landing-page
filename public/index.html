@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Unique Furniture</title>
+</head>
+<body>
+    <header style="background-image: url(./images/bg.jpg);" class="h-screen w-auto">
+        <nav class="flex justify-between h-16 max-w-6xl items-center m-auto relative px-3 py-10  md:py-12 ">
+            <h1 class="text-3xl cursor-pointer z-10">unique</h1>
+        
+            <div id="menu" class="hidden lg:block text-2xl ">
+                <a class="mb-6 lg:mr-2 lg:text-black lg:hover:text-green-700" href="#">Home</a>
+                <a class="mb-6 lg:mr-2 text-black hover:text-green-700" href="#">Collection</a>
+                <a class="mb-6 lg:mr-2 text-black hover:text-green-700" href="#">Services</a>
+                <a class="mb-6 lg:mr-2 text-black hover:text-green-700" href="#">Gallery</a>
+                <a class="text-black  hover:text-green-700" href="#">Contact</a>
+            </div>
+        
+            <div id="burger" class="lg:hidden cursor-pointer z-10">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </div>
+        </nav>
+
+        <div class="flex justify-between items-center  max-w-6xl m-auto flex-wrap py-28 px-3  ">
+            <div class="items-center text-center lg:w-1/2">
+                <h1 class="text-2xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur  <span class="text-green-700">earum aliquid</span> laborum!</h1>
+                <button class="py-2 px-4 mt-7 rounded-md bg-green-800 text-yellow-50">Shop Now!</button>
+            </div>
+
+            <img class="md:ml-28 lg:m-auto" src="./images/pngwing.com.png" alt="">
+        </div>
+    </header>
+
+    <!--Collection Section-->
+
+    <section class="h-full">
+        <div class="max-w-6xl m-auto text-center" >
+            <h1 class="pt-12 px-3 text-3xl underline">Our Collection</h1>
+        </div>
+
+        <div class="grid lg:grid-cols-2 md:grid-cols-2 gap-5 lg:max-w-6xl lg:pt-12 px-4 py-8 items-center m-auto">
+            <div class="">
+                 <img class="w-full h-auto" src="./images/pexels-max-vakhtbovych-6198652.jpg" alt="">
+                 <h2 class="mt-4">Lorem ipsum dolor sit amet.</h2>
+                 <button class="py-2 px-4 mt-4 rounded-md bg-green-800 text-yellow-50">Shop Now!</button>
+            </div>
+            <div class="">
+                 <img class="w-full h-auto" src="./images/pexels-max-vakhtbovych-6492397.jpg" alt="">
+                 <h2 class="mt-4">Lorem ipsum dolor sit amet.</h2>
+                 <button class="py-2 px-4 mt-4 rounded-md bg-green-800 text-yellow-50">Shop Now!</button>
+            </div>
+            <div class="">
+                 <img class="w-full h-auto" src="./images/pexels-vecislavas-popa-1643383.jpg" alt="">
+                 <h2 class="mt-4">Lorem ipsum dolor sit amet.</h2>
+                 <button class="py-2 px-4 mt-4 rounded-md bg-green-800 text-yellow-50">Shop Now!</button>
+            </div>
+            <div class="">
+                 <img class="w-full h-auto" src="./images/pexels-vecislavas-popa-1669799.jpg" alt="">
+                 <h2 class="mt-4">Lorem ipsum dolor sit amet.</h2>
+                 <button class="py-2 px-4 mt-4 rounded-md bg-green-800 text-yellow-50">Shop Now!</button>
+            </div>
+        </div>
+    </section>
+
+    <!--Services Section-->
+
+    <section class="h-full">
+        <div class="max-w-6xl m-auto text-center">
+            <h1 class="pt-12 px-3 text-3xl underline">Our Services</h1>
+        </div>
+        <div class="max-w-6xl m-auto grid lg:grid-cols-3 py-11 gap-6 ">
+            <div class="place-items-center grid text-center border-b-2  lg:shadow-2xl">
+                <h2 class="text-2xl mt-2">Quality</h2>
+                <img class="w-60 h-60" src="./images/Quality Check_Outline.png" alt="">
+                <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non ipsa temporibus tempora dolores, mollitia
+                    numquam suscipit asperiores.</p>
+            </div>
+            <div class="place-items-center grid  text-center border-b-2 lg:shadow-2xl">
+                <h2 class="text-2xl mt-2">Unique Design</h2>
+                <img class="w-60 h-60" src="./images/Designer _Outline.png" alt="">
+                <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non ipsa temporibus tempora dolores, mollitia
+                    numquam suscipit asperiores.</p>
+            </div>
+            <div class="text-center place-items-center grid  lg:shadow-2xl">
+                <h2 class="text-2xl mt-2">Fast Delivery</h2>
+                <img class="w-60 h-60" src="./images/Time_Flatline.png" alt="">
+                <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias non ipsa temporibus tempora dolores, mollitia
+                    numquam suscipit asperiores.</p>
+            </div>
+       </div>
+    </section>
+
+    <!--Gallery Section-->
+
+    <section class="h-full">
+        <div class="text-center">
+            <h1 class="pt-12 px-3 text-3xl underline">Gallery</h1>
+        </div>
+        <div class="grid grid-cols-3 gap-1 pt-4 lg:grid-cols-6 lg:gap-3 lg:pt-10">
+            <img src="./images/pexels-houzlook-com-3356416(2).jpg" alt="">
+            <img src="./images/pexels-evg-culture-1148955.jpg" alt="">
+            <img src="./images/pexels-isaw-company-945688.jpg" alt="">
+            <img src="./images/pexels-valeria-boltneva-1129413.jpg" alt="">
+            <img src="./images/pexels-emre-can-acer-2079233.jpg" alt="">
+            <img src="./images/pexels-pixabay-279618.jpg" alt=""> 
+        </div>
+    </section>
+
+    <!--Contact Section-->
+
+    <section class="h-full bg-green-800">
+        <div class="max-w-6xl m-auto flex flex-col lg:flex-row justify-between items-center py-10">
+
+            <div class="mb-6">
+                <h1 class="text-3xl text-yellow-50 cursor-pointer">unique</h1>
+            </div>
+
+            <div class="flex items-center ">
+                <div class=" flex flex-col text-2xl mr-14 ">
+                    <a class="mr-2 text-yellow-50 hover:text-black" href="#">Home</a>
+                    <a class="mr-2 text-yellow-50 hover:text-black" href="#">Collection</a>
+                    <a class="mr-2 text-yellow-50 hover:text-black " href="#">Services</a>
+                    <a class="mr-2 text-yellow-50 hover:text-black " href="#">Gallery</a>
+                    <a class="text-yellow-50 hover:text-black" href="#">Contact</a>
+                </div>
+                
+                <div class="flex items-center flex-row lg:flex-col">
+                    <img class="mr-3 lg:mb-6 cursor-pointer" src="./images/twitter-logo-shape-svgrepo-com.svg" alt="">
+                    <img class="mr-3 lg:mb-6 cursor-pointer" src="./images/facebook-logo-svgrepo-com.svg" alt="">
+                    <img class="mr-3 cursor-pointer" src="./images/instagram-logo-svgrepo-com.svg" alt="">
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+   <script src="./index.js"></script>
+</body>
+</html>
